@@ -27,3 +27,6 @@ public class EvenFibonacciSum
         return sum;
     }
 }
+
+Enter the value of n: 90
+Sum of even Fibonacci numbers till 90 = 44
