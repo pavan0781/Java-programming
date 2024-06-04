@@ -16,3 +16,6 @@ public class Main {
         System.out.println("Reverse Number: " + reverse);
     }
 }
+Enter a number:
+123456
+    654321
