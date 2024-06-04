@@ -20,3 +20,9 @@ public class UserNameValidator {
         return userName.matches("[a-zA-Z0-9_]+");
     }
 }
+output:
+Enter the user name:
+saveetha@123
+Reenter the user name:
+savetha@123
+One or both user names are not valid.
