@@ -1,0 +1,17 @@
+```import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the user name:");
+        String userName = scanner.next();
+        System.out.println("Reenter the user name:");
+        String reEnterUserName = scanner.next();
+
+        if (userName.matches("[a-zA-Z0-9]+") && reEnterUserName.matches("[a-zA-Z0-9]+")) {
+            System.out.println("Both user names are valid.");
+        } else {
+            System.out.println("One or both user names are not valid.");
+        }
+    }
+}

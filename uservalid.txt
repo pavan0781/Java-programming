@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class UserNameValidation {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter username 1: ");
+        String username1 = input.nextLine();
+        System.out.print("Enter username 2: ");
+        String username2 = input.nextLine();
+        input.close();  
+        if (username1.equals(username2)) {
+            System.out.println("Usernames are valid and equal.");
+        } else {
+            System.out.println("Usernames are not equal.");
+        }
+    }
+}
