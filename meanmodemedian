@@ -53,7 +53,14 @@ public class StatsCalculator {
                 maxFreq = entry.getValue();
                 mode = entry.getKey();
             }
+
         }
         return mode;
     }
 }
+
+output:
+Mean: 3.6
+Median: 3.5
+Mode: 5
+
